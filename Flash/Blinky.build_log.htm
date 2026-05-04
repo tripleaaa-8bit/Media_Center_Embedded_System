@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ECBME Dept. Ryerson University Flex license: MDK Professional 5.31 (Flex): 200 user(s) (mdk_pro) Operation stops: 4 Jul 2027
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.31 (Flex): 200 user(s)  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\ECBME\Desktop\Media-Center-main_Copy6\Blinky.uvprojx
+Project File Date:  11/27/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'LPC1768 Flash'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling core_cm3.c...
+compiling Blinky.c...
+Blinky.c(107): warning:  #940-D: missing return statement at end of non-void function "main_menu" 
+  } 
+Blinky.c: 1 warning, 0 errors
+compiling IRQ.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling LED.c...
+compiling usbcore.c...
+compiling usbdesc.c...
+compiling usbdmain.c...
+compiling usbhw.c...
+compiling usbuser.c...
+compiling adcuser.c...
+compiling KBD.c...
+compiling gallery.c...
+gallery.c(22): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern SUPER_MARIO_pixel_data[];
+gallery.c(23): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern SONIC_pixel_data[];
+gallery.c(24): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern STEVE_pixel_data[];
+gallery.c(49): warning:  #940-D: missing return statement at end of non-void function "image_delay" 
+  }
+gallery.c(99): warning:  #940-D: missing return statement at end of non-void function "gallery" 
+  }
+gallery.c: 5 warnings, 0 errors
+compiling highway_dodge.c...
+highway_dodge.c(85): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+    GLCD_DisplayString(1, 0, 1, score_str);
+highway_dodge.c(131): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+            GLCD_DisplayString(1, 0, 1, score_str);
+highway_dodge.c(161): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+    GLCD_DisplayString(1,0,1, score_str);
+highway_dodge.c(212): warning:  #1-D: last line of file ends without a newline
+  }
+highway_dodge.c: 4 warnings, 0 errors
+compiling grid_hunter.c...
+grid_hunter.c(201): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+          GLCD_DisplayString(9, 0, 1, buf);
+grid_hunter.c(203): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+          GLCD_DisplayString(8, 0, 1, buf);
+grid_hunter.c(279): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+      GLCD_DisplayString(1,0,1, buf);
+grid_hunter.c(337): warning:  #1-D: last line of file ends without a newline
+  }
+grid_hunter.c: 4 warnings, 0 errors
+compiling game_menu.c...
+game_menu.c(88): warning:  #1-D: last line of file ends without a newline
+  }
+game_menu.c: 1 warning, 0 errors
+compiling splash_screen.c...
+splash_screen.c(7): warning:  #177-D: variable "SPLASH_pixel_data"  was declared but never referenced
+  static const unsigned char SPLASH_pixel_data[300 * 171 * 2 + 1] =
+splash_screen.c: 1 warning, 0 errors
+compiling super_mario.c...
+compiling sonic.c...
+compiling steve.c...
+linking...
+Program Size: Code=12486 RO-data=184486 RW-data=112 ZI-data=832  
+".\Flash\Blinky.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.6.0.pack
+                Keil.LPC1700_DFP.2.6.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

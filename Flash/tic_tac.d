@@ -1,0 +1,12 @@
+.\flash\tic_tac.o: tic_tac.c
+.\flash\tic_tac.o: .\inc\LPC17xx.H
+.\flash\tic_tac.o: .\inc\core_cm3.h
+.\flash\tic_tac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\tic_tac.o: .\inc\system_LPC17xx.h
+.\flash\tic_tac.o: .\inc\LPC17xx.h
+.\flash\tic_tac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\tic_tac.o: GLCD.h
+.\flash\tic_tac.o: LED.h
+.\flash\tic_tac.o: KBD.h
+.\flash\tic_tac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\tic_tac.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

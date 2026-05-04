@@ -1,0 +1,10 @@
+.\flash\snake.o: snake.c
+.\flash\snake.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\snake.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\snake.o: LPC17xx.h
+.\flash\snake.o: core_cm3.h
+.\flash\snake.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\snake.o: system_LPC17xx.h
+.\flash\snake.o: KBD.h
+.\flash\snake.o: GLCD.h
+.\flash\snake.o: LED.h

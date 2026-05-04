@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\system_lpc17xx.o"
+".\startup_lpc17xx.o"
+".\irq.o"
+".\glcd_spi_lpc1700.o"
+".\blinky.o"
+".\adc.o"
+".\led.o"
+".\kbd.o"
+--strict --scatter ".\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Blinky.map" -o .\Blinky.axf

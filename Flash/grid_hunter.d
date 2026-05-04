@@ -1,0 +1,12 @@
+.\flash\grid_hunter.o: grid_hunter.c
+.\flash\grid_hunter.o: .\inc\LPC17xx.H
+.\flash\grid_hunter.o: .\inc\core_cm3.h
+.\flash\grid_hunter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\grid_hunter.o: .\inc\system_LPC17xx.h
+.\flash\grid_hunter.o: .\inc\LPC17xx.h
+.\flash\grid_hunter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\grid_hunter.o: GLCD.h
+.\flash\grid_hunter.o: LED.h
+.\flash\grid_hunter.o: KBD.h
+.\flash\grid_hunter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\grid_hunter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,12 @@
+.\flash\game.o: game.c
+.\flash\game.o: .\inc\LPC17xx.H
+.\flash\game.o: .\inc\core_cm3.h
+.\flash\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\game.o: .\inc\system_LPC17xx.h
+.\flash\game.o: .\inc\LPC17xx.h
+.\flash\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\game.o: GLCD.h
+.\flash\game.o: LED.h
+.\flash\game.o: KBD.h
+.\flash\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
